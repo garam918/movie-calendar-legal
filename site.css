@@ -28,6 +28,8 @@ h1 { font-size: clamp(2rem, 5vw, 3rem); }
 h2 { font-size: 1.35rem; scroll-margin-top: 1.25rem; }
 .document-header, .directory { padding-block: clamp(2.5rem, 8vw, 5rem) 2.5rem; }
 .document-header p { color: var(--muted); margin: .8rem 0 0; font-size: .93rem; }
+.request-link { display: inline-block; padding: .6rem 1rem; margin-top: 1.2rem; border-radius: .25rem; background: var(--accent); color: #18161d; font-weight: 650; text-decoration: none; }
+.request-link:hover { background: #ffe4b6; color: #18161d; }
 .document-layout { display: grid; grid-template-columns: minmax(10rem, 1fr) minmax(0, 3.5fr); gap: clamp(1.75rem, 5vw, 4rem); }
 .contents { align-self: start; border-top: 1px solid var(--rule); padding-top: .7rem; }
 .contents a { display: block; padding-block: .35rem; color: var(--muted); font-size: .92rem; }
